@@ -1,0 +1,16 @@
+{
+	"ImportPath": "github.com/rekby/lockrun",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v62",
+	"Deps": [
+		{
+			"ImportPath": "github.com/ogier/pflag",
+			"Comment": "v0.0.1-7-g45c278a",
+			"Rev": "45c278ab3607870051a2ea9040bb85fcb8557481"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "b776ec39b3e54652e09028aaaaac9757f4f8211a"
+		}
+	]
+}
