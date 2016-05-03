@@ -18,7 +18,6 @@ var (
 	Quiet     = pflag.BoolP("quiet", "Q", false, "Exit quietly (and with success) if locked.")
 	Verbose   = pflag.BoolP("verbose", "V", false, "Show a bit more runtime debugging")
 	MaxTime = pflag.Int("maxtime",0, "Wait for at most <maxtime> seconds for a lock, then exit. 0 mean wait infinite.")
-
 )
 
 func Main() {
